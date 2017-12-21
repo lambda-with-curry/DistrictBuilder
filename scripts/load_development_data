@@ -26,7 +26,7 @@ function load_dev_data() {
         exec -T django \
         wget -q \
             -O /data/VA_data.zip \
-            https://s3.amazonaws.com/districtbuilderdata/VA_data.zip
+            https://s3.amazonaws.com/test.objects/VA_data_processed.zip
 
     echo "Unzipping shapefile"
     docker-compose \

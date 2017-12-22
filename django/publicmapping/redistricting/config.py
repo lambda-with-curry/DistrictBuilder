@@ -1892,7 +1892,6 @@ class SpatialUtils:
 
             return True
         except Exception as ex:
-            import pdb; pdb.set_trace()
             logger.warn('Could not save "%s" style' % dest)
             return False
 
